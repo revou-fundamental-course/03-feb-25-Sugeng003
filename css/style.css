@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: math;
+}
+
+/* Background Image */
+body {
+  display: flex;
+  background: black;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Header */
+.main-header {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+/* Navigasi */
+.p-suhu {
+  text-align: center;
+  max-width: 600px;
+  margin: 16px auto 10px auto;
+  color: white;
+  font-size: 18px;
+}
+
+/* Kontainer utama */
+main {
+  max-width: 600px;
+  border-radius: 20px;
+  padding: 20px;
+  width: 500px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 50px rgb(159, 7, 223);
+  height: 500px;
+}
+/* Bagian input */
+label {
+  color: white;
+}
+.input-cel {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-cel input {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  margin: 8px 0;
+  border-radius: 10px;
+  color: white;
+  background: transparent;
+  border: 2px solid purple;
+  box-shadow: 0px 0px 10px rgb(229, 10, 54);
+}
+
+.input-order {
+  padding: 20px;
+}
+
+input[type=number]:focus,
+input[type=text]:focus {
+  border-color: #ffcc00;
+  outline: none;
+}
+
+/* Grup tombol */
+.button-grup {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+button {
+  border: none;
+  padding: 20px 30px;
+  font-size: 16px;
+  border-radius: 22px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button:hover, button:focus, button:active {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* Warna tombol */
+.background-green {
+  background-color: #fff;
+  color: rgb(8, 109, 232);
+}
+
+.background-black {
+  background-color: #fff;
+  color: orangered;
+}
+
+.background-pink {
+  background-color: #fff;
+  color: rgb(1, 193, 52);
+}
+
+/* Highlight teks */
+.remark {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.content {
+  box-shadow: 0px 0px 18px rgb(136, 7, 191);
+  color: white;
+  width: 650px;
+  min-height: 90%;
+  place-items: center;
+}
+
+.box-center,
+.box-down p {
+  max-width: 600px;
+}
+
+.box-center {
+  font-size: 24px;
+  text-align: center;
+}
+
+.box-down {
+  padding-top: 0;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--tag untuk responsive design-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website konversi Suhu</title>
+
+  <!--link css-->
+  <link rel="stylesheet" href="css\style.css">
+</head>
+
+<body>
+  <script src="js\script.js"></script>
+
+  <header class="main-header">
+    <h1>Konversi Suhu</h1>
+  </header>
+
+  <!--introduction-->
+    <nav>
+      <div class="p-suhu">
+        <p>Masukan suhu derajat celsius (&deg;C) ke kotak dibawah, 
+          lalu klik tombol konversi untuk mendapatkan hasil konvesi dalam bentuk fahrenhit
+        (&deg;F) </p>
+      </div>
+    </nav>
+
+  <main>
+    <!--form untuk suhu yang di konversi-->
+    <section>
+      <form>
+        <div class="input-cel">
+          <div class="input-order">
+            <label for="input-celcius">Celcius:</label>
+            <input type="text" id="input-celcius">
+          </div>
+        </div>
+        
+        <div class="button-grup">
+          <button class="background-green">Konversi</button>
+          <button class="background-black">Reset</button>
+          <button class="background-pink">Reverse</button>
+        </div>
+      </form>
+    </section>
+    <hr>
+    <!--Hasil Konversi-->
+    <section>
+      <div class="input-cel">
+        <label for="input-result">Fahrenhit:</label>
+        <input type="text" id="input-result" readonly>
+      </div>
+    </section>
+    <!--cara koversi suhu-->
+    <section>
+      <div class="input-cel">
+        <label for="input-kalkulasi">Cara kalkulasi:</label>
+        <input type="text" id="input-kalkulasi" readonly>
+      </div>
+    </section>
+
+  </main>
+      <div class="content">
+        <div class="box">
+          <div class="box-center">
+            <P>
+              Cara konversi dari celcius(&deg;C) ke Fahrenheit (&deg;F)
+            </P>
+          </div>
+          <div class="box-down">
+            <p>Suhu <span class="remark">S</span> dalam derajat fahrenheit (&deg;F) sama dengan suhu <span class="remark">S</span> 
+              dalam derajat celcius (&deg;C) kali 9/5 tambah 32. <sup>S</sup>(&deg;F) = <sup>(S</sup>(&deg;C) X 9/5) + 32 atau <sup>S</sup>(&deg;F) = <sup>(S</sup>(&deg;C) X 1.8) + 32 </p> 
+          </div>
+        </div>
+    </div>
+
+  <footer>
+    <p>Made By sugeng003@2025</p>
+  </footer>
+
+</body>
+</html>
